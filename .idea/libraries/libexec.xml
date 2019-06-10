@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libexec">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/libexec" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$MAVEN_REPOSITORY$/libexec" />
+    </SOURCES>
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/libexec" recursive="false" />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/libexec" recursive="false" type="SOURCES" />
+  </library>
+</component>

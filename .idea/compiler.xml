@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ego-commons" />
+        <module name="ego-core" />
+        <module name="manager-api" />
+        <module name="manager-dao" />
+        <module name="manager-domain" />
+        <module name="manager-service" />
+        <module name="manager-web" />
+        <module name="msg-api" />
+        <module name="msg-service" />
+        <module name="order-api" />
+        <module name="order-dao" />
+        <module name="order-domain" />
+        <module name="order-service" />
+        <module name="order-web" />
+        <module name="pay-api" />
+        <module name="pay-service" />
+        <module name="pay-web" />
+        <module name="protal-api" />
+        <module name="protal-dao" />
+        <module name="protal-domain" />
+        <module name="protal-service" />
+        <module name="protal-web" />
+        <module name="sso-api" />
+        <module name="sso-dao" />
+        <module name="sso-domain" />
+        <module name="sso-service" />
+        <module name="sso-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ego" options="" />
+      <module name="ego-commons" options="" />
+      <module name="ego-core" options="" />
+      <module name="ego-msg" options="" />
+      <module name="ego-pay" options="" />
+      <module name="egomanager" options="" />
+      <module name="manager-api" options="" />
+      <module name="manager-dao" options="" />
+      <module name="manager-domain" options="" />
+      <module name="manager-service" options="" />
+      <module name="manager-web" options="" />
+      <module name="msg-api" options="" />
+      <module name="msg-service" options="" />
+      <module name="order-api" options="" />
+      <module name="order-dao" options="" />
+      <module name="order-domain" options="" />
+      <module name="order-service" options="" />
+      <module name="order-web" options="" />
+      <module name="pay-api" options="" />
+      <module name="pay-service" options="" />
+      <module name="pay-web" options="" />
+      <module name="protal-api" options="" />
+      <module name="protal-dao" options="" />
+      <module name="protal-domain" options="" />
+      <module name="protal-service" options="" />
+      <module name="protal-web" options="" />
+      <module name="sso-api" options="" />
+      <module name="sso-dao" options="" />
+      <module name="sso-domain" options="" />
+      <module name="sso-service" options="" />
+      <module name="sso-web" options="" />
+    </option>
+  </component>
+</project>

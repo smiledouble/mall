@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
+		http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+<!-- 一、应用名称 -->
+<dubbo:application name="pay-service"/>
+<!-- 二、注册中心 -->
+<dubbo:registry protocol="zookeeper" address="${zk.url}" client="zkclient"/>
+<!-- 三、监听端口 -->
+<dubbo:protocol port="${app.port}"/>
+<!-- 四、包扫描和注解开发 -->
+<dubbo:annotation package="com.cxs.service.impl"/>
+</beans>
